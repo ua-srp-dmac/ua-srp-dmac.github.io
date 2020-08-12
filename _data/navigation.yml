@@ -9,7 +9,9 @@ data-standard:
     children:
       - title: "Overview"
         url: /data-standard/
-      - title: "Genomic"
+  - title: "Data Types"
+    children:
+      - title: "Genomic Data"
         url: /data-standard/genomic/
       - title: "Data Type 2"
         url: /child-2-page-url/
