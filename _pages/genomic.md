@@ -7,4 +7,26 @@ sidebar:
   nav: "data-standard"
 ---
 
-Genomic Data Standard
+## File Naming Convention
+
+File names should include the following fields, separated by "-" and followed by the file extension (.fastq, .bam).
+
++ **Lab:** the first 3 letters of the PI's last name
++ **Date:** formatted as `mmddyyyy`
++ **Data Type**: genomic
++ **Data Subtype**: mRNA, 
++ **Additional Variable(s):** Use 3 letter notation.  For example "control" would be designated as "con". If using multiple variables, they should be separated by underscores "_".
+
+### Examples
+
+From the following file name, we know exactly what this file contains.
+
+OOI-07302020-genomic-mRNA-con.fastq
+
++ Sample was from OOI lab
++ File generated on 7/30/2020
++ Genomic data
++ mRNA sequencing from control sample
++ fastq file
+
+
